@@ -1,3 +1,5 @@
+import cowsay
+
 class Animal:
 
     def __init__(self, nombre: str, especie: str, edad: int):
@@ -7,7 +9,7 @@ class Animal:
         self.energia = 50
 
     def presentarse(self):
-        print(f"Hola soy {self.nombre}. {self.especie}. Edad: {self.edad}.")
+        cowsay.cow(f"Hola soy {self.nombre}. {self.especie}. Edad: {self.edad}.")
 
     def ajuste_energia(self):
         if self.energia >= 100:

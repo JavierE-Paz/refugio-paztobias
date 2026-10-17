@@ -1,5 +1,5 @@
 # refugio-paztobias
-Este proyecto ayuda a crear objetos en este caso animales y interactuar de cierta forma con ellos
+Este proyecto ayuda a crear objetos en este caso animales e interactuar de cierta forma con ellos
 
 ## Requisitos
 - hay que tener instalado python
